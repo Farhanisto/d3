@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title> welcome to d3</title>
+    </head>
+    <body>
+       <svg>
+          <!--
+        <path
+        d= "M 100,100
+            L 300,150
+            L 300, 300"
+        ></path>
+    -->
+    <!--
+    <a xlink:href="https://google.com" target="_blank">
+    <text x="40" y="40" fill="red" font-size=25>
+            Have a nice day
+            <tspan x="100", y= "120">ok 
+            </tspan>
+     </text>
+     </a>
+       </svg> 
+      -->
+      <!-- Definations-->
+      <!--
+      <defs>
+          <rect width="40" height ="40" x="0" y="0" id ="rectangle"></rect>
+      </defs>>
+      <use xlink:href="#rectangle" x="0" y="0"> </use>
+      <use xlink:href="#rectangle" width="140" height="140" fill="blue"> </use>
+      -->
+      <!-- CLIP PATHS-->
+      <defs>
+          <path id="text_path" d="M0,0 L250,250"></path>
+      </defs>
+      <text x="100" y="100" stroke="red" font-size="25">
+          <textpath xlink:href="#text_path">
+          Hello world
+        </textpath>
+      </text>
+
+    </body>
+</html>
