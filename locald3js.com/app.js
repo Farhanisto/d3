@@ -1,4 +1,6 @@
 var d3 = d3.select('body')
            .append('g')
-           .attr('class','className')
+           //.attr('class','className')
            .text('This is a test')
+           .classed('className3', true)
+           .style('color','red')
