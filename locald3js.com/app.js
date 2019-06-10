@@ -1,6 +1,6 @@
-d3.csv('data.csv').then((data)=> {
+d3.json('data.json').then((data)=> {
     console.log(data)
-    generate(data.columns)
+    generate(data)
 })
 function generate(data){
     //var data = [5,3,42,23,23,4]
