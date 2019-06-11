@@ -1,0 +1,12 @@
+#barchart{
+    width: 1000px;
+    height: 1000px;
+    background-color: orange;
+    margin: 10px auto
+}
+.bar{
+    display: inline-block;
+    width: 100px;
+    height: 130px;
+    background-color: grey
+}
